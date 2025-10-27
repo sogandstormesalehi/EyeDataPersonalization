@@ -87,6 +87,5 @@ Attention behavior in GazeBaseVR appears primarily stimulus-driven rather than r
 Participants demonstrate distinct gaze entropy profiles within each session, but these do not persist across sessions, suggesting that gaze dynamics are shaped more by the visual stimulus than by enduring individual attention styles.
 
 
-<img width="984" height="785" alt="image" src="https://github.com/user-attachments/assets/61ba8364-7e1c-45bc-9423-a807e85f1f19" />
-
+<img width="984" height="785" alt="image" src="https://github.com/user-attachments/assets/3088bc5d-b68f-4f93-9819-7e9e3c4da18b" />
 
