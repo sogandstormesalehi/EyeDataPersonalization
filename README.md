@@ -77,14 +77,8 @@ gaze_analysis/
 Do participants in the GazeBaseVR dataset exhibit stable, personalized attention patterns across repeated VR video sessions?
 
 **Findings**:
-Results indicate that while individuals differ modestly in their mean gaze entropy, these differences are not stable across sessions.
-Intra-subject correlations between sessions were near zero, suggesting weak personal consistency.
-Mixed-effects modeling revealed low participant-level variance (≈0.005), indicating that most variance arises within individuals rather than between them.
-Regression analysis showed low alignment with group patterns (mean R² ≈ 0.21), highlighting session-specific but not persistent individuality.
+Across analyses, the results provide evidence for the presence of **individualized attention patterns**, though these appear primarily at the session level rather than as stable, long-term traits. The per-session regression analysis showed that participants’ gaze entropy trajectories only partially aligned with the group mean, with an average R² of about 0.21. This indicates that while the stimulus exerts a strong influence on visual behavior, participants also display unique temporal patterns of attention. The wide range of slopes (−0.4 to 2.1) and intercepts (−3.3 to 4.1) further suggests meaningful diversity in focus style—some individuals consistently maintained tighter, more concentrated gaze behavior, whereas others adopted a more exploratory viewing approach. Although the mixed-effects model revealed limited between-participant variance (≈ 0.005), the consistent deviations from the group trajectory across sessions imply that personalization in attention does exist. Participants express distinct, session-specific gaze dynamics shaped by their individual cognitive or perceptual tendencies, even when viewing identical stimuli.
 
-**Conclusion**:
-Attention behavior in GazeBaseVR appears primarily stimulus-driven rather than reflecting stable personal traits.
-Participants demonstrate distinct gaze entropy profiles within each session, but these do not persist across sessions, suggesting that gaze dynamics are shaped more by the visual stimulus than by enduring individual attention styles.
 
 
 <img width="984" height="785" alt="image" src="https://github.com/user-attachments/assets/3088bc5d-b68f-4f93-9819-7e9e3c4da18b" />
