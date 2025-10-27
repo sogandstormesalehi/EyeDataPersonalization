@@ -18,14 +18,17 @@ Download the dataset from Figshare:
 [https://figshare.com/articles/dataset/GazeBaseVR_Data_Repository/21308391?file=38844024](https://figshare.com/articles/dataset/GazeBaseVR_Data_Repository/21308391?file=38844024)
 
 After downloading, extract the CSV files into the following path relative to your notebook:
+<pre>
 data/
 ├── S_1002_S1_3_VID.csv
 ├── S_1002_S2_3_VID.csv
 ├── S_1009_S1_3_VID.csv
 └── ...
+</pre>
 The analysis scripts and notebook will automatically read from the `data/` directory.
 
 ---
+<pre>
 gaze_analysis/
 │
 ├── attention_metrics.py # Entropy, fixation, and dispersion metrics
@@ -39,7 +42,7 @@ gaze_analysis/
 │
 ├── processed/ # Processed gaze data - generated after running the notebook (per participant/session)
 └── analyze.ipynb # Example Jupyter notebook for running the full analysis
-
+</pre>
 
 ---
 
