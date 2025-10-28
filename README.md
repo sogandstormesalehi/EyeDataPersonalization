@@ -73,13 +73,21 @@ gaze_analysis/
 
 ## Research Question and Findings
 
-**Research Question**:
+**Research Question 1**:
 Do participants in the GazeBaseVR dataset exhibit stable, personalized attention patterns across repeated VR video sessions?
 
 **Findings**:
 Across analyses, the results provide evidence for the presence of **individualized attention patterns**, though these appear primarily at the session level rather than as stable, long-term traits. The per-session regression analysis showed that participants’ gaze entropy trajectories only partially aligned with the group mean, with an average R² of about 0.21. This indicates that while the stimulus exerts a strong influence on visual behavior, participants also display unique temporal patterns of attention. The wide range of slopes (−0.4 to 2.1) and intercepts (−3.3 to 4.1) further suggests meaningful diversity in focus style—some individuals consistently maintained tighter, more concentrated gaze behavior, whereas others adopted a more exploratory viewing approach. Although the mixed-effects model revealed limited between-participant variance (≈ 0.005), the consistent deviations from the group trajectory across sessions imply that personalization in attention does exist. Participants express distinct, session-specific gaze dynamics shaped by their individual cognitive or perceptual tendencies, even when viewing identical stimuli.
 
-
-
 <img width="984" height="785" alt="image" src="https://github.com/user-attachments/assets/3088bc5d-b68f-4f93-9819-7e9e3c4da18b" />
+
+
+**Research Question 2**:
+Can short-term gaze dynamics be used to predict a participant’s future attention behavior within a viewing session?
+
+**Findings**:
+Using a bidirectional LSTM with an attention mechanism trained on overlapping temporal windows, the model successfully predicted short-term attention patterns based on preceding gaze behavior. When trained to forecast the next five seconds of rolling gaze entropy from the previous five seconds, the model achieved an R² of 0.57 and a Pearson correlation of 0.76 on the test data. These results indicate that short-term gaze behavior is highly structured and temporally predictable, suggesting that attention in VR is not random but follows identifiable dynamics. While the model primarily captures within-session variability rather than long-term individual traits, its performance demonstrates that gaze-based attention forecasting is feasible and that individuals exhibit consistent short-term attention rhythms that can be modeled computationally.
+
+
+<img width="1187" height="396" alt="download" src="https://github.com/user-attachments/assets/a3032f16-b628-43f3-8de8-adc1da8be43f" />
 
